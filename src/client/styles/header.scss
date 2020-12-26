@@ -1,0 +1,18 @@
+.header-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    // padding: 10px 40px;
+    align-items: center;
+    background-color: #94c0ff;
+    color: #333;
+}
+
+.logo {
+    margin-left: 100px;
+    font-size: 25px;
+}
+
+.nav {
+    margin-right: 100px;
+}

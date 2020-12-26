@@ -1,0 +1,19 @@
+body {
+    // display: flex;
+    // flex-direction: column;
+    min-height: 100vh;
+    // margin: auto;
+    display: grid;
+    // grid-auto-rows: minmax(50px, auto);
+    grid-template-rows: 1fr 7fr 0.5fr;
+}
+
+main {
+    // flex: 2;
+    margin: auto;
+}
+
+section {
+    max-width: 800px;
+    margin: 50px auto;
+}

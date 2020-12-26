@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Evaluate a News Article with Natural Language Processing</title>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+
+<body>
+
+    <header class="header-section">
+        <div class="logo">Evaluate a News Article with Natural Language Processing</div>
+        <div class="nav">navigation</div>
+    </header>
+
+    <main>
+        <section>
+            <form class="" onsubmit="return Client.handleSubmit(event)">
+                <input id="name" type="text" name="input" value="" placeholder="Enter an URL">
+                <input type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
+            </form>
+        </section>
+
+        <section>
+            <strong>Form Results:</strong>
+            <div id="results"></div>
+            <div id="agreement"></div>
+            <div id="subjectivity"></div>
+            <div id="confidence"></div>
+
+        </section>
+    </main>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('/service-worker.js');
+            });
+        }
+    </script>
+    <footer>
+        <p class="footer-text">Project#4 - Udacity Front-End Web Development Nanodegree</p>
+        <p class="footer-text">Developed by Seham Alzahrani </p>
+    </footer>
+
+</body>
+
+</html>
